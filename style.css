@@ -1,0 +1,40 @@
+*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#161D6F;
+    height: 100vh;
+}
+.text-line{
+    border-top:1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.card{
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+}
+.card img:hover{
+    transform: scale(1.13);
+    transition: all 0.5s;
+}
+button{
+    margin: 5px auto;
+}
+.error{
+    color:red;
+}
+.correct{
+    color:green;
+}
+.box{
+    border: 2px solid #2600e3;
+    width: 80px;
+    height: 70px;
+}
